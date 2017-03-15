@@ -45,8 +45,8 @@ public class Registration extends Activity {
 
                 helper.insertContact(c);
 
-                Intent intent = new Intent(Registration.this, Birthday.class);
-                startActivity(intent);
+                //Intent intent = new Intent(Registration.this, Birthday.class);
+               // startActivity(intent);
 
                // c.setDob();
                // c.setHeight();
