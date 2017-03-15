@@ -44,14 +44,14 @@ public class Registration extends Activity {
                 c.setPassword(pwd1str);
 
                 helper.insertContact(c);
-
-                //Intent intent = new Intent(Registration.this, Birthday.class);
-               // startActivity(intent);
+            }
+                Intent intent = new Intent(Registration.this, Birthday.class);
+                startActivity(intent);
 
                // c.setDob();
                // c.setHeight();
                 //c.setWeight();
-            }
+
 
         }
     }
